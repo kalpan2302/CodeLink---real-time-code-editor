@@ -38,9 +38,9 @@ const Home = () => {
         <div className="homePageWrapper flex items-center justify-center text-white h-lvh">
             <div className="formWrapper bg-[#282a36] p-5 rounded-xl w-[400px] max-w-[90%]">
                 <img
-                    className="homePageLogo h-16 mb-6"
-                    src="/code-sync.png"
-                    alt="code-sync-logo"
+                    className="homePageLogo h-[70px] mb-6"
+                    src="/CodeLink2.png"
+                    alt="CodeLink Logo-logo"
                 />
                 <h4 className="mainLabel mb-5">Paste invitation ROOM ID</h4>
                 <div className="inputGroup flex flex-col">
@@ -60,15 +60,15 @@ const Home = () => {
                         value={username}
                         onKeyUp={handleInputEnter}
                     />
-                    <button onClick={joinRoom} className=" bg-[#4aed88] hover:bg-[#2b824c] w-24 text-black text-sm ml-auto border-none p-2 rounded-md cursor-pointer transition-all" >
+                    <button onClick={joinRoom} className="font-bold bg-[#2BCDFF] hover:bg-[#37b3d8] w-24 text-black text-sm ml-auto border-none p-2 rounded-md cursor-pointer transition-all" >
                         Join
                     </button>
                     <span className="createInfo m-auto mt-4">
-                        If you don't have an invite then create &nbsp;
+                        If you don't have an invite then &nbsp;
                         <a href="/"
                             onClick={createNewRoom}
-                            className="createNewBtn underline text-[#4aed88] pb-1">
-                            new room
+                            className="createNewBtn underline text-[#2BCDFF] pb-1">
+                            Create new room
                         </a>
                     </span>
                 </div>
@@ -76,7 +76,7 @@ const Home = () => {
             <footer className='fixed bottom-0  '>
                 <h4 className='my-2'>
                     Built with 💛 &nbsp; by &nbsp;
-                    <a className='text-[#4aee88]' href="https://github.com/codersgyan">Kalpan Bariya</a>
+                    <a className='text-[#2BCDFF]' href="https://github.com/kalpan2302">Kalpan Bariya</a>
                 </h4>
             </footer>
         </div>

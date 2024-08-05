@@ -98,7 +98,7 @@ const EditorPage = () => {
                     <div className="logo pb-2 border-b border-[#424242] border-solid">
                         <img
                             className="logoImage h-16"
-                            src="/code-sync.png"
+                            src="/CodeLink2.png"
                             alt="logo"
                         />
                     </div>
@@ -115,7 +115,7 @@ const EditorPage = () => {
                 <button onClick={copyRoomId} className="btn py-1  copyBtn font-semibold bg-slate-100 rounded-md text-black">
                     Copy ROOM ID
                 </button>
-                <button onClick={leaveRoom} className="btn  py-1 leaveBtn font-semibold bg-[#4aed88] hover:bg-[#2b824c] rounded-md text-black mt-4">
+                <button onClick={leaveRoom} className="btn  py-1 leaveBtn font-semibold bg-[#2BCDFF] hover:bg-[#37b3d8] rounded-md text-black mt-4">
                     Leave
                 </button>
             </div>
